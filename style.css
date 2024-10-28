@@ -1,0 +1,97 @@
+body{
+ font-family: 'Arial', sans-serif;
+    background-color: #d5cfcf;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+h1{ color: rgb(55 13 13);
+    font-family: Roboto;
+    font-weight: 800;
+    font-size-adjust: 1;
+    display: flex;
+}
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+}
+p {
+    background: #aea7a7;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    font-family: Lato;
+}
+a {
+    color: #2ECC71;
+    text-decoration: none;
+    transition: color 0.8s ease
+}
+a:hover {
+    color: #1abc9c; 
+    transition: color 0.2s ease;;
+}
+
+h2{ color: 424b46;
+    margin-top: 30px}
+.social-links {
+    background-color: #f2ebeb; 
+    padding: 20px; 
+    border-radius: 8px; 
+    margin-top: 20px; 
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    width: 100vw; 
+}
+.presentation, .sketchup, .voyages,.chess {
+    background-color: #eae8e8; 
+    padding: 20px; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    margin: 20px 0; 
+}
+.sketchup h2, .voyages h2, .chess h2{
+    font-family: 'Arial', sans-serif; 
+    font-size: 2.5em; 
+    color: #333; 
+    margin-bottom: 15px; 
+}
+
+.presentation h1 {
+    font-size: 2 em !important; 
+    color: #333; 
+}
+
+.container{
+	widht: 700 px;
+	margin: 40px auto;
+}
+@media (max-width: 960px) {
+	.container {
+  width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
